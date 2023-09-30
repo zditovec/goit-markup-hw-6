@@ -1,0 +1,94 @@
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+    /* HEADER */
+
+
+
+    /* /HEADER */
+    /* SECTION 1 */
+    .effect-section{
+        max-width: 768px;
+        padding-bottom: 112px;
+        padding-top: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                    rgba(46, 47, 66, 0.70)),
+                url(../images/tablet-phone.jpg);
+
+    }
+        .advantage-list {
+            flex-direction: row;
+            gap: 72px 24px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .advantage-item {
+            flex-basis: calc((100% - 24px) / 2);
+        }
+    
+    .icon-info{
+        visibility: hidden;
+    }
+    .team{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
+        /* OUR PORTFILIO */
+ 
+ .project-list {
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 72px 24px;
+     justify-content: center;
+ }
+
+ .list-name-page {
+     flex-basis: calc((100% - 24px) / 2);
+ }
+ /* FOOTER */
+ .main-footer{
+    padding-left: 108px;
+        flex-direction: column;
+        gap: 72px;
+    }
+ 
+ .logo-social{
+    display: flex;
+ }
+ .footer-face{
+    margin: 0;
+ }
+ .conclution{
+    width: 264px;
+ }
+ .logo-footer{
+    margin-right: 173px;
+ }
+}
+@media screen and (min-width: 1158px){
+    .container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+    .effect-section{
+            background-color: #2e2f42;
+                padding: 188px 0;
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                max-width: 1440px;
+                margin: 0 auto;
+    }
+.icon-info{
+    visibility: visible
+}
+}
