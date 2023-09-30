@@ -2,10 +2,12 @@
 @media screen and (min-width: 768px) {
 
     .container {
-        max-width: 768px;
-    }
+            max-width: 768px;
+        }
     /* HEADER */
-
+.mail-nav{
+    display: block;
+}
 
 
     /* /HEADER */
@@ -89,6 +91,11 @@
                 margin: 0 auto;
     }
 .icon-info{
-    visibility: visible
+visibility: visible;
 }
+.advantage-list{
+display: flex;
+flex-wrap: nowrap;
+}
+
 }
