@@ -121,7 +121,7 @@
   }
 
   .list-name-page {
-    flex-basis: calc((100% - 24px) / 4);
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   /* Footer */
@@ -211,7 +211,7 @@
   }
 
   .list-name-page {
-    flex-basis: calc((100% - 24px) / );
+    flex-basis: calc((100% - 24px) / 4);
   }
 
   /* Footer */
