@@ -1,101 +1,237 @@
-/* TABLET */
+
+@media only screen and (max-width: 767.98px) {
+    .page-nav {
+        display: none;
+    }
+
+    .address-mail {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
 
     .container {
-            max-width: 768px;
-        }
-    /* HEADER */
-.mail-nav{
-    display: block;
-}
-
-
-    /* /HEADER */
-    /* SECTION 1 */
-    .effect-section{
         max-width: 768px;
-        padding-bottom: 112px;
-        padding-top: 112px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
-                    rgba(46, 47, 66, 0.70)),
-                url(../images/tablet-phone.jpg);
+    }
 
+    /* Header */
+    .menu-btn {
+        display: none;
     }
-        .advantage-list {
-            flex-direction: row;
-            gap: 72px 24px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    
-        .advantage-item {
-            flex-basis: calc((100% - 24px) / 2);
-        }
-    
-    .icon-info{
-        visibility: hidden;
-    }
-    .team{
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 64px 24px;
-    }
-        /* OUR PORTFILIO */
- 
- .project-list {
-     flex-direction: row;
-     flex-wrap: wrap;
-     gap: 72px 24px;
-     justify-content: center;
- }
 
- .list-name-page {
-     flex-basis: calc((100% - 24px) / 2);
- }
- /* FOOTER */
- .main-footer{
-    padding-left: 108px;
+    .nav-link {
+        color: #2E2F42;
+        font-weight: 500;
+        padding: 24px 0;
+    }
+
+    .header-link:hover,
+    .header-link:focus {
+        color: #404BBF;
+    }
+
+    .contacts-link {
+        color: #434455;
+        line-height: 1.17;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        font-style: normal;
+        text-decoration: none;
+        transition-property: color;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 250ms;
+        
+    }
+
+    .contacts-link:hover,
+    .contacts-link:focus {
+        color:#404BBF;
+    }
+
+    .page-nav {
+        display: flex;
+        gap: 40px;
+        padding: 24px 0;
+        position: relative;
+    }
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+        gap: 120px;
+    }
+
+    .mail-nav {
+        display: flex;
         flex-direction: column;
-        gap: 72px;
     }
- 
- .logo-social{
-    display: flex;
- }
- .footer-face{
-    margin: 0;
- }
- .conclution{
-    width: 264px;
- }
- .logo-footer{
-    margin-right: 173px;
- }
-}
-@media screen and (min-width: 1158px){
-    .container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+
+
+
+    /* EFFECTIVE SOLUTIONS */
+    .effect-section {
+        max-width: 768px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url(../images/people-office.jpg);
     }
-    .effect-section{
-            background-color: #2e2f42;
-                padding: 188px 0;
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                        rgba(46, 47, 66, 0.7)),
-                    url(../images/people-office.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                max-width: 1440px;
-                margin: 0 auto;
+
+    .effect-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 60px;
+        margin-bottom: 36px;
+        padding-right: 0;
+        padding-left: 0;
+        
+    }
+    /* TEAM */
+
+    /* .quaity-item {
+        text-align: start;
+    } */
+
+    .advantage-list {
+        flex-direction: row;
+        gap: 72px 24px;
+        flex-wrap: wrap;
     }
 .icon-info{
-visibility: visible;
+    display: none;
 }
-.advantage-list{
-display: flex;
-flex-wrap: nowrap;
-}
+    .advantage-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    /* Our Team */
+
+    .team {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        justify-content: center;
+    }
+
+   
+
+    /* Our Portfolio */
+
+    .portfolio-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        justify-content: center;
+    }
+
+    .list-name-page {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    /* Footer */
+
+         /* FOOTER */
+         .main-footer {
+             padding-left: 108px;
+             flex-direction: column;
+             gap: 72px;
+         }
+    
+         .logo-social {
+             display: flex;
+         }
+    
+         .footer-face {
+             margin: 0;
+         }
+    
+         .conclution {
+             width: 264px;
+         }
+    
+         .logo-footer {
+             margin-right: 173px;
+         }
+
+    /* Modal window */
+
+    .modal {
+        width: 408px;
+        padding: 72px 25px 24px 23px;
+        min-height: 584px;
+        
+    }
 
 }
+
+@media screen and (min-width: 1158px) {
+    .container {
+            max-width: 1158px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+        /* HEADER */
+        .mail-nav {
+            flex-direction: row;
+            gap: 40px;
+        }
+    
+        .item-mail {
+            font-size: 16px;
+            letter-spacing: 0.02px;
+            line-height: 1.5;
+    
+        }
+    
+        /* EFFECT-SECTION */
+        .effect-section {
+            max-width: 1440px;
+            padding-top: 188px;
+            padding-bottom: 188px;
+    
+        }
+    
+        .effect-title {
+            margin-bottom: 48px;
+        }
+    
+        /* Our features */
+    
+        .quality-item {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-bottom: 8px;
+        }
+    
+        .quality-item-info {
+            font-weight: 400;
+        }
+    
+        .icon-info {
+            display: flex;
+        }
+    
+        .advantage-list {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    
+        /* Our Portfolio */
+        .list-name-page {
+            flex-basis: calc((100% - 24px) / 4);
+        }
+        /* Footer */
+        .main-footer{
+            display: flex;
+            flex-direction: row;
+        }
+    .subscribe-telegram{
+        display: block;
+    }
+}
+/* Modal window */
+
