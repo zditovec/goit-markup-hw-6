@@ -1,3 +1,77 @@
+@media only screen and (min-width:320px){
+  .container {
+    max-width: 320px;
+    padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+        .effect-section {
+          max-width: 320px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+              url(../images/phone.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding-top: 72px;
+            padding-bottom: 72px;
+            margin: 0 auto;
+        }
+        .effect-title{
+          max-width: 320px;
+          margin-bottom: 72px;
+        }
+        .advantage-list{
+          display: flex;
+          flex-direction: column;
+        }
+        .icon-info{
+          display: none;
+        }
+        .advantage-item:not(:last-child){
+          margin-bottom: 72px;
+        }
+        .quality-item{
+          text-align: center;
+          font-size: 36px;
+        }
+        .team{
+          flex-direction: column;
+          gap: 72px;
+        }
+        .team-human{
+          padding: 96px 0;
+        }
+        .item-list{
+          max-width: 320px;
+        }
+        .container.human{
+          padding: 0 28px;
+        }
+        /* OUR PORTFOLIO */
+.list-name-page{
+  width: 100%;
+}
+/* footer */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 767.98px) {
   .page-nav {
     display: none;
@@ -91,6 +165,7 @@
     } */
 
   .advantage-list {
+    display: flex;;
     flex-direction: row;
     gap: 72px 24px;
     flex-wrap: wrap;
@@ -100,6 +175,10 @@
   }
   .advantage-item {
     flex-basis: calc((100% - 24px) / 2);
+  }
+  .quality-item{
+    font-size: 36px;
+    text-align: start;
   }
  
   /* Our Team */
@@ -121,6 +200,7 @@
   }
 
   .list-name-page {
+    width: 0;
     flex-basis: calc((100% - 24px) / 2);
   }
 
@@ -164,6 +244,9 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .container.human{
+    padding: 0 15px;
+  }
 
   /* HEADER */
   .mail-nav {
@@ -188,7 +271,9 @@
     margin-bottom: 48px;
   }
 
-  /* Our features */
+ .team-human{
+  padding: 120px 0;;
+ }
 
   .quality-item {
     font-size: 20px;
@@ -210,6 +295,9 @@
     flex-wrap: nowrap;
   }
 
+  .portfolio-list{
+    border:none;
+  }
   .list-name-page {
     flex-basis: calc((100% - 24px) / 4);
   }
